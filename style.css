@@ -166,8 +166,8 @@ button {
   gap: 1rem;
 }
 .profile__avatar {
-  width: 30px;
-  border: 1px solid var(--White);
+  width: 40px;
+  border: 2px solid var(--White);
   border-radius: 100%;
 }
 .chat__area {
@@ -481,5 +481,8 @@ span {
     right: -20rem;
     width: 50%;
     background-color: #f5f3f7;
+  }
+  .profile__avatar {
+    width: 30px;
   }
 }
